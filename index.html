@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,23 +21,42 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-md-offset-4">
+        <div class="col-md-6">
           <div class="calculator">
+            <!--Screen-->
+            <p class="screen text-right"></p>
+            <!--Clear Button-->
+            <button class="btn btn-calc" value="">C</button>
             <!--Button numbers -->
-            <button class="btn btn-calc" value="1">1</button>
-            <button class="btn btn-calc" value="2">2</button>
-            <button class="btn btn-calc" value="3">3</button>
-            <button class="btn btn-calc" value="4">4</button>
-            <button class="btn btn-calc" value="5">5</button>
-            <button class="btn btn-calc" value="6">6</button>
-            <button class="btn btn-calc" value="7">7</button>
-            <button class="btn btn-calc" value="8">8</button>
-            <button class="btn btn-calc" value="9">9</button>
+            <div class="row">
+              <div class="col-md-3">
+                <button class="btn btn-calc" value="1">1</button>
+                <button class="btn btn-calc" value="2">2</button>
+                <button class="btn btn-calc" value="3">3</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <button class="btn btn-calc" value="4">4</button>
+                <button class="btn btn-calc" value="5">5</button>
+                <button class="btn btn-calc" value="6">6</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <button class="btn btn-calc" value="7">7</button>
+                <button class="btn btn-calc" value="8">8</button>
+                <button class="btn btn-calc" value="9">9</button>
+              </div>
+            </div>
             <button class="btn btn-calc" value="0">0</button>
+            <!--Equals button-->
+            <button class="btn btn-calc" value="">=</button>
           </div>
         </div>
       </div>
     </div>
+    <script src="js/calculator.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
