@@ -15,10 +15,10 @@ function multiply (num1, num2) {
 }
 
 function run () {
-  document.querySelector('p').innerHTML = 0;
+
 }
 
 
 window.onload = function () {
-  run();
+  document.querySelector('p').innerHTML = 0;
 }
