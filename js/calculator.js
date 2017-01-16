@@ -1,3 +1,8 @@
+//Set the calculations to 0 on page load
+window.onload = function () {
+  document.querySelector('p').innerHTML = 0;
+}
+
 function sum (num1, num2) {
   return Math.round(num1 + num2);
 }
@@ -18,13 +23,10 @@ function clear () {
   document.querySelector('p').innerHTML = 0;
 }
 
-function run () {
+/*Where the magic happens:
+/*Continue to perform math operations until the equals button is clicked
+/*When the equals button is clicked, execute the functions and return a result
+*/
+function execute () {
 
-}
-
-
-
-
-window.onload = function () {
-  document.querySelector('p').innerHTML = 0;
 }
