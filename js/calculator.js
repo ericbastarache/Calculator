@@ -14,9 +14,15 @@ function multiply (num1, num2) {
   return Math.round(num1 * num2);
 }
 
+function clear () {
+  document.querySelector('p').innerHTML = 0;
+}
+
 function run () {
 
 }
+
+
 
 
 window.onload = function () {
