@@ -28,5 +28,6 @@ function clear () {
 /*When the equals button is clicked, execute the functions and return a result
 */
 function execute () {
-
+  var res = "";
+  
 }
