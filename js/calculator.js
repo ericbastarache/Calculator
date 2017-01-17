@@ -42,9 +42,15 @@ function execute () {
       return nope !== "";
     });
   }
+
+  //Add a unique ID to each button
+  var cls = document.getElementsByClassName('btn-calc');
+  for(var ids = 0, length = cls.length; ids < length; ids++) {
+    cls[ids].id = "btn_" + [ids + 1];
+  }
+
+  //Clear the original array of items
   items = [];
   console.log(finItems);
-
-  
 
 }
