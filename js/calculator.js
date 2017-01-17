@@ -3,6 +3,7 @@ var el = document.getElementsByTagName('button');
 
 //Set the calculations to 0 on page load
 window.onload = function() {
+  var str = "0";
   document.querySelector('p').innerHTML = "0";
 
   //Add a unique ID to each button
@@ -17,6 +18,10 @@ window.onload = function() {
   });
 
   document.getElementById('btn_2').addEventListener('click', function(e) {
+    if (document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    }
     document.querySelector('p').innerHTML += e.target.value;
     console.log(document.querySelector('p').innerHTML);
   });
