@@ -31,6 +31,7 @@ window.onload = function() {
   document.getElementById('btn_3').addEventListener('click', function(e) {
     if(document.querySelector('p').innerHTML === "0") {
       var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
       console.log(document.querySelector('p').innerHTML);
@@ -38,43 +39,83 @@ window.onload = function() {
   });
 
   document.getElementById('btn_4').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_5').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_6').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_7').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_8').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_9').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_10').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_11').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+      document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_12').addEventListener('click', function(e) {
