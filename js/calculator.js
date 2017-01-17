@@ -20,10 +20,13 @@ window.onload = function() {
   document.getElementById('btn_2').addEventListener('click', function(e) {
     if (document.querySelector('p').innerHTML === "0") {
       var res = str.replace("0", e.target.value);
+      console.log(res);
       document.querySelector('p').innerHTML = res;
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
     }
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+
   });
 
   document.getElementById('btn_3').addEventListener('click', function(e) {
