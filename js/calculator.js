@@ -26,12 +26,15 @@ window.onload = function() {
       document.querySelector('p').innerHTML += e.target.value;
       console.log(document.querySelector('p').innerHTML);
     }
-
   });
 
   document.getElementById('btn_3').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML += e.target.value;
-    console.log(document.querySelector('p').innerHTML);
+    if(document.querySelector('p').innerHTML === "0") {
+      var res = str.replace("0", e.target.value);
+    } else {
+      document.querySelector('p').innerHTML += e.target.value;
+      console.log(document.querySelector('p').innerHTML);
+    }
   });
 
   document.getElementById('btn_4').addEventListener('click', function(e) {
