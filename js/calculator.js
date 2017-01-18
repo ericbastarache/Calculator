@@ -3,7 +3,7 @@ window.onload = () => {
   let calcScreen = document.querySelector('p');
   let clear = document.getElementById('clear');
 
-  for(var i = 0; i < elems.length; i++) {
+  for(var i = 0; i < elems.length; i+=1) {
     if(elems[i].innerHTML === "=") {
       elems[i].addEventListener('click', calculate(i));
     } else {
@@ -11,7 +11,7 @@ window.onload = () => {
     }
   }
 
-  const performOperations = (i) => {
+  function performOperations(i) {
     return () => {
       if(elems[i].innerHTML === "÷") {
         calcScreen.innerHTML += "/";
@@ -21,16 +21,16 @@ window.onload = () => {
         calcScreen.innerHTML += elems[i].innerHTML;
       }
     };
-  }
+  };
 
   clear.onclick = () => {
     calcScreen.innerHTML = "";
   };
 
-  const calculate = (i) => {
+  function calculate(i) {
     return () => {
       calcScreen.innerHTML = eval(calcScreen.innerHTML);
     };
-  }
+  };
 
 };
