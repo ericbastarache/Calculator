@@ -4,8 +4,8 @@ var el = document.getElementsByTagName('button');
 var args = [];
 //Set the calculations to 0 on page load
 window.onload = function() {
-  var str = "0";
-  document.querySelector('p').innerHTML = "0";
+  var str = 0;
+  document.querySelector('p').innerHTML = 0;
 
   //Add a unique ID to each button
   var cls = document.getElementsByClassName('btn-calc');
@@ -15,12 +15,12 @@ window.onload = function() {
 
   //Add event handlers to each button
   document.getElementById('btn_1').addEventListener('click', function(e) {
-    document.querySelector('p').innerHTML = "0";
+    document.querySelector('p').innerHTML = 0;
   });
 
   document.getElementById('btn_2').addEventListener('click', function(e) {
-    if (document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if (document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -28,8 +28,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_3').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -37,8 +37,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_4').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -46,8 +46,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_5').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -55,8 +55,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_6').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -64,8 +64,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_7').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -73,8 +73,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_8').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -82,8 +82,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_9').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -91,8 +91,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_10').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
@@ -100,8 +100,8 @@ window.onload = function() {
   });
 
   document.getElementById('btn_11').addEventListener('click', function(e) {
-    if(document.querySelector('p').innerHTML === "0") {
-      var res = str.replace("0", e.target.value);
+    if(document.querySelector('p').innerHTML === 0) {
+      var res = str.replace(0, e.target.value);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
