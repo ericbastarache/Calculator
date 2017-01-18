@@ -1,6 +1,7 @@
 //Set a global to get all buttons
 var el = document.getElementsByTagName('button');
 
+var args = [];
 //Set the calculations to 0 on page load
 window.onload = function() {
   var str = "0";
@@ -20,11 +21,9 @@ window.onload = function() {
   document.getElementById('btn_2').addEventListener('click', function(e) {
     if (document.querySelector('p').innerHTML === "0") {
       var res = str.replace("0", e.target.value);
-      console.log(res);
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -34,7 +33,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -44,7 +42,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -54,7 +51,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -64,7 +60,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -74,7 +69,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -84,7 +78,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -94,7 +87,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -104,7 +96,6 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
@@ -114,12 +105,23 @@ window.onload = function() {
       document.querySelector('p').innerHTML = res;
     } else {
       document.querySelector('p').innerHTML += e.target.value;
-      console.log(document.querySelector('p').innerHTML);
     }
   });
 
-  document.getElementById('btn_12').addEventListener('click', function(e) {
+  document.getElementById('btn_12').addEventListener('click', function (e) {
+    args.push(document.querySelector('p').innerHTML);
+  });
 
+  document.getElementById('btn_13').addEventListener('click', function (e) {
+    args.push(document.querySelector('p').innerHTML);
+  });
+
+  document.getElementById('btn_14').addEventListener('click', function (e) {
+    args.push(document.querySelector('p').innerHTML);
+  });
+
+  document.getElementById('btn_15').addEventListener('click', function (e) {
+    args.push(document.querySelector('p').innerHTML);
   });
 
   execute();
@@ -168,4 +170,5 @@ function execute() {
 function calculate () {
   var res = "";
   var operator = "";
+
 }
