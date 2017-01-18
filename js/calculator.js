@@ -110,18 +110,22 @@ window.onload = function() {
 
   document.getElementById('btn_12').addEventListener('click', function (e) {
     args.push(document.querySelector('p').innerHTML);
+    console.log(args);
   });
 
   document.getElementById('btn_13').addEventListener('click', function (e) {
     args.push(document.querySelector('p').innerHTML);
+    console.log(args);
   });
 
   document.getElementById('btn_14').addEventListener('click', function (e) {
     args.push(document.querySelector('p').innerHTML);
+    console.log(args);
   });
 
   document.getElementById('btn_15').addEventListener('click', function (e) {
     args.push(document.querySelector('p').innerHTML);
+    console.log(args);
   });
 
   execute();
