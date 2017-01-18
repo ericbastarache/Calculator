@@ -1,7 +1,8 @@
-//Set a global to get all buttons
+//Set global variables here
 var el = document.getElementsByTagName('button');
 var num = 0;
 var args = [];
+
 //Set the calculations to "0" on page load
 window.onload = function() {
   var str = "0";
