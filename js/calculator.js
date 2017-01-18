@@ -1,6 +1,7 @@
 window.onload = () => {
   let elems = document.getElementsByTagName('button');
   let calcScreen = document.querySelector('p');
+  //calcScreen.innerHTML = 0;
   let clear = document.getElementById('clear');
 
   for(var i = 0; i < elems.length; i+=1) {
