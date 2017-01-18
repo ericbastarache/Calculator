@@ -21,7 +21,7 @@ window.onload = () => {
         calcScreen.innerHTML += elems[i].innerHTML;
       }
     };
-  };
+  }
 
   clear.onclick = () => {
     calcScreen.innerHTML = "";
@@ -31,6 +31,6 @@ window.onload = () => {
     return () => {
       calcScreen.innerHTML = eval(calcScreen.innerHTML);
     };
-  };
+  }
 
 };
