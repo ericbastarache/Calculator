@@ -109,8 +109,10 @@ window.onload = function() {
   });
 
   document.getElementById('btn_12').addEventListener('click', function (e) {
-    args.push(document.querySelector('p').innerHTML);
-    console.log(args);
+    if(document.querySelector('p').innerHTML !== "0") {
+      args.push(document.querySelector('p').innerHTML);
+      console.log(args);
+    }
   });
 
   document.getElementById('btn_13').addEventListener('click', function (e) {
@@ -128,7 +130,7 @@ window.onload = function() {
     console.log(args);
   });
 
-  execute();
+execute();
 }
 
 function sum(num1, num2) {
