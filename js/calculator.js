@@ -1,6 +1,6 @@
 //Set a global to get all buttons
 var el = document.getElementsByTagName('button');
-
+var num = 0;
 var args = [];
 //Set the calculations to "0" on page load
 window.onload = function() {
@@ -110,28 +110,32 @@ window.onload = function() {
 
   document.getElementById('btn_12').addEventListener('click', function (e) {
     if(document.querySelector('p').innerHTML !== "0") {
-      args.push(document.querySelector('p').innerHTML);
+      num = parseInt(document.querySelector('p').innerHTML);
+      args.push(num);
       console.log(args);
     }
   });
 
   document.getElementById('btn_13').addEventListener('click', function (e) {
     if(document.querySelector('p').innerHTML !== "0") {
-      args.push(document.querySelector('p').innerHTML);
+      num = parseInt(document.querySelector('p').innerHTML);
+      args.push(num);
       console.log(args);
     }
   });
 
   document.getElementById('btn_14').addEventListener('click', function (e) {
     if(document.querySelector('p').innerHTML !== "0") {
-      args.push(document.querySelector('p').innerHTML);
+      num = parseInt(document.querySelector('p').innerHTML);
+      args.push(num);
       console.log(args);
     }
   });
 
   document.getElementById('btn_15').addEventListener('click', function (e) {
     if(document.querySelector('p').innerHTML !== "0") {
-      args.push(document.querySelector('p').innerHTML);
+      num = parseInt(document.querySelector('p').innerHTML);
+      args.push(num);
       console.log(args);
     }
   });
