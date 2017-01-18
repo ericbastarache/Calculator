@@ -119,7 +119,7 @@ window.onload = function() {
   });
 
   document.getElementById('btn_12').addEventListener('click', function(e) {
-    
+
   });
 
   execute();
@@ -146,12 +146,9 @@ function clear() {
 }
 
 /*Where the magic happens:
-/*Continue to perform math operations until the equals button is clicked
-/*When the equals button is clicked, execute the functions and return a result
+/*Create array of button values
 */
 function execute() {
-  var res = "";
-  var operator = "";
   var items = [];
 
   /*Loop through button elements and extract the values*/
@@ -166,4 +163,9 @@ function execute() {
   items = [];
   console.log(finItems);
 
+}
+
+function calculate () {
+  var res = "";
+  var operator = "";
 }
