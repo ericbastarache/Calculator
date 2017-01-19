@@ -29,7 +29,7 @@ window.onload = () => {
 
   function calculate(i) {
     return () => {
-      calcScreen.innerHTML = eval(calcScreen.innerHTML);
+      calcScreen.innerHTML = Math.round(eval(calcScreen.innerHTML)*1000)/1000;
     };
   }
 
