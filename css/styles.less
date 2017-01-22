@@ -12,7 +12,7 @@ body {
   width: 15em;
   background: linear-gradient(to bottom, #A0A0A0, darken(#A0A0A0, 5%));
   height: 20.125em;
-  box-shadow: 0 0 1em @black;
+  box-shadow: inset 0 0 2em @black;
   .screen {
     border-top-right-radius: 0.181em;
     border-top-left-radius: 0.181em;
@@ -28,6 +28,8 @@ body {
     border-radius: 0.313em;
     outline: none;
     margin: 0.313em;
+    box-shadow: inset 0 0 1em @black;
+    border: 0.181em solid @black;
     &:focus {
       outline: none;
     }
